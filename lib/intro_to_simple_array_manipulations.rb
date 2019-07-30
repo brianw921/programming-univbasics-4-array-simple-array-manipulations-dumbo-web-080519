@@ -39,7 +39,5 @@ def using_uniq(array)
 end
 
 def using_delete(array,string)
-  if array.length == string
-    array.delete(string)
-  end
+  array.delete(string) if array.length == string
 end
